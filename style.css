@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: black;
+    align-content: center;
+  }
+  
+  .cd-logo {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #642580;
+    background-size: cover;
+    min-height: 100%;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
+  }
+
+  .textSection {
+    display: block;
+    height: 100%;
+    margin: 0em auto;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: black;
+    width: 500px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E41C38;
+    position: top;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #FDF2D9;
+    color:#111;
+  }
+  
+  .active {
+    background-color: #333;
+  }
